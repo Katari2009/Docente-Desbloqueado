@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { AVATARS, MODULES } from '../constants';
-import type { UserProfile } from '../types';
-import AppLogo from './common/AppLogo';
+import { AVATARS, MODULES } from '../constants.ts';
+import type { UserProfile } from '../types.ts';
+import AppLogo from './common/AppLogo.tsx';
 
 interface ProfileSetupProps {
   onProfileCreate: (profile: UserProfile) => void;

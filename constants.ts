@@ -1,5 +1,4 @@
-
-import type { Module } from './types';
+import type { Module } from './types.ts';
 
 export const AVATARS = [
   'https://api.dicebear.com/8.x/bottts/svg?seed=Casper',
