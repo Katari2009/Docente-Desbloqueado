@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { generateQuizQuestions } from '../services/geminiService.ts';
-import type { Module, QuizQuestion } from '../types.ts';
-import Spinner from './common/Spinner.tsx';
-import QuizResult from './QuizResult.tsx';
+import { generateQuizQuestions } from '../services/geminiService';
+import type { Module, QuizQuestion } from '../types';
+import Spinner from './common/Spinner';
+import QuizResult from './QuizResult';
 
 interface QuizViewProps {
   module: Module;

@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { UserProfile } from '../types.ts';
+import type { UserProfile } from '../types';
 
 const PROFILE_KEY = 'gamified-teacher-profile';
 

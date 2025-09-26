@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import ProfileSetup from './components/ProfileSetup.tsx';
-import Dashboard from './components/Dashboard.tsx';
-import QuizView from './components/QuizView.tsx';
-import { useUserProfile } from './hooks/useUserProfile.ts';
-import type { UserProfile, Module } from './types.ts';
-import { MODULES } from './constants.ts';
+import ProfileSetup from './components/ProfileSetup';
+import Dashboard from './components/Dashboard';
+import QuizView from './components/QuizView';
+import { useUserProfile } from './hooks/useUserProfile';
+import type { UserProfile, Module } from './types';
+import { MODULES } from './constants';
 
 type AppView = 'profileSetup' | 'dashboard' | 'quiz';
 

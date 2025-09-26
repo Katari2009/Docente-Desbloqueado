@@ -1,7 +1,7 @@
 import React from 'react';
-import { AVATARS, MODULES } from '../constants.ts';
-import type { UserProfile, Module } from '../types.ts';
-import AppLogo from './common/AppLogo.tsx';
+import { AVATARS, MODULES } from '../constants';
+import type { UserProfile, Module } from '../types';
+import AppLogo from './common/AppLogo';
 
 const LockIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -77,7 +77,7 @@ const Dashboard: React.FC<DashboardProps> = ({ userProfile, onStartQuiz }) => {
                 disabled={isLocked}
                 className={`
                   w-full mt-6 py-2 px-4 rounded-lg font-semibold transition duration-300
-                  ${isLocked ? 'bg-gray-500/20 text-gray-400' : 'bg-cyan-500/80 hover:bg-cyan-500 text-white'}
+                  ${isLocked ? 'bg-gray-500/20 text-gray-400' : 'hover:bg-cyan-500 text-white'}
                 `}
               >
                 {status === 'completed' ? 'Repasar' : 'Comenzar'}
