@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { QuizQuestion, Module, RubricFeedbackData } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY as string });
 
 export async function generateQuizQuestions(moduleContent: string): Promise<QuizQuestion[]> {
   try {
