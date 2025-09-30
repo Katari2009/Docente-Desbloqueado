@@ -30,7 +30,7 @@ const App: React.FC = () => {
     setUserProfile(profile);
     setCurrentView('dashboard');
   };
-  
+
   const handleStartModule = (module: Module) => {
     setActiveModule(module);
     setCurrentView('moduleIntro');
@@ -38,11 +38,6 @@ const App: React.FC = () => {
 
   const handleContinueToQuiz = () => {
     setCurrentView('quiz');
-  };
-  
-  const handleResetProfile = () => {
-    console.log('User profile has been reset.');
-    setUserProfile(null);
   };
 
   const handleQuizComplete = (score: number) => {
@@ -77,14 +72,13 @@ const App: React.FC = () => {
       setCurrentView('dashboard');
   }
 
-  // Lógica de renderizado original
   if (!userProfile) {
     return <ProfileSetup onProfileCreate={handleProfileCreate} />;
   }
 
   switch(currentView) {
       case 'dashboard':
-          return <Dashboard userProfile={userProfile} onStartModule={handleStartModule} onResetProfile={handleResetProfile} />;
+          return <Dashboard userProfile={userProfile} onStartModule={handleStartModule} />;
       case 'moduleIntro':
           // A non-null assertion is safe here because this view is only set when a module is active.
           return <ModuleIntro moduleId={activeModule!.id} onContinue={handleContinueToQuiz} onViewTutorial={() => {}} onOpenHelp={() => {}} />;
@@ -97,7 +91,7 @@ const App: React.FC = () => {
       case 'profileSetup':
           return <ProfileSetup onProfileCreate={handleProfileCreate} />;
       default:
-        return <Dashboard userProfile={userProfile} onStartModule={handleStartModule} onResetProfile={handleResetProfile} />;
+        return <Dashboard userProfile={userProfile} onStartModule={handleStartModule} />;
   }
 };
 
