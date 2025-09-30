@@ -10,8 +10,11 @@ interface ImportMeta {
 
 // FIX: Add type definition for process.env.API_KEY to align with guidelines,
 // assuming it's made available in the execution environment.
-declare var process: {
-  env: {
+// FIX: Use namespace augmentation to extend NodeJS.ProcessEnv instead of redeclaring `process`.
+// This resolves `Cannot redeclare block-scoped variable 'process'` errors by merging
+// with existing global types instead of creating a conflicting declaration.
+declare namespace NodeJS {
+  interface ProcessEnv {
     API_KEY: string;
   }
-};
+}
