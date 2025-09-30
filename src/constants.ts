@@ -1,3 +1,4 @@
+
 import type { Module } from './types';
 
 export const AVATARS = [
@@ -14,33 +15,33 @@ export const AVATARS = [
 export const MODULES: Module[] = [
   {
     id: 'module1',
-    title: 'Introducción a la IA en Educación',
-    description: 'Comprende los conceptos fundamentales de la IA y su impacto en el aula.',
-    content: 'Este módulo explora qué es la Inteligencia Artificial, diferenciando entre IA generativa y otros tipos. Analiza cómo estas tecnologías pueden personalizar el aprendizaje, automatizar tareas administrativas y ofrecer nuevas herramientas pedagógicas para transformar la experiencia educativa y preparar a los estudiantes para el futuro.'
+    title: 'Gamificación y Educaplay: La Combinación Ganadora',
+    description: 'Descubre qué es la gamificación y cómo Educaplay la convierte en una poderosa herramienta para el aula.',
+    content: `Este taller introduce la gamificación como una estrategia para transformar la enseñanza con actividades interactivas que motivan y enganchan a los estudiantes. El objetivo es conocer la plataforma Educaplay, aprender a crear actividades y a implementar estas estrategias en el aula. Educaplay es una plataforma web gratuita que revoluciona la educación mediante la gamificación, permitiendo crear actividades interactivas sin conocimientos técnicos. Sus características principales son: más de 15 tipos de actividades, interfaz intuitiva, compatibilidad multiplataforma y un sistema de puntuación integrado.`
   },
   {
     id: 'module2',
-    title: 'Herramientas de IA para Docentes',
-    description: 'Descubre un abanico de herramientas prácticas de IA para enriquecer tus clases.',
-    content: 'Desde chatbots educativos como ChatGPT o Gemini hasta generadores de imágenes como DALL-E, este módulo presenta un catálogo de herramientas de IA. Se enfoca en aplicaciones prácticas para crear contenido, diseñar evaluaciones, generar material visual y fomentar la creatividad, proporcionando criterios para seleccionar la tecnología adecuada para cada necesidad pedagógica.'
+    title: 'Un Universo de Actividades a tu Alcance',
+    description: 'Conoce la variedad de juegos educativos que puedes crear, desde sopas de letras hasta mapas interactivos.',
+    content: `Educaplay ofrece una amplia gama de actividades para dinamizar el aprendizaje. Entre los ejemplos se encuentran el Crucigrama Científico para reforzar conceptos, la Sopa de Letras Geográfica para mejorar el conocimiento y la concentración, y el Mapa Interactivo Mundial para desarrollar el aprendizaje visual y espacial. Las actividades se clasifican en tres grandes grupos: Actividades de Texto (Crucigrama, Sopa de letras, Completar texto), Actividades Interactivas (Test, Relacionar columnas, Ordenar elementos) y Actividades Multimedia (Videoquiz interactivo, Mapas interactivos, Presentaciones dinámicas).`
   },
   {
     id: 'module3',
-    title: 'Integración Pedagógica de la IA',
-    description: 'Aprende a diseñar estrategias didácticas que incorporen la IA de manera efectiva.',
-    content: 'La tecnología es solo una parte; la pedagogía es clave. Este módulo aborda cómo integrar la IA en metodologías activas como el aprendizaje basado en proyectos o el aula invertida. Se exploran estrategias para usar la IA como un asistente que fomenta el pensamiento crítico, la colaboración y la personalización del aprendizaje a gran escala.'
+    title: 'Taller Práctico: Creando tu Primera Actividad',
+    description: 'Aprende paso a paso a crear, configurar y personalizar tu primera actividad interactiva en Educaplay.',
+    content: `La creación de una actividad en Educaplay es un proceso sencillo que se puede resumir en cuatro pasos clave. Primero, el Acceso a la Plataforma, donde se explora la interfaz principal. Segundo, la Creación Paso a Paso, donde se desarrolla una actividad desde cero, como un crucigrama o una sopa de letras sobre "Animales". Tercero, la Personalización Visual, donde se ajustan colores, fuentes y diseño. Finalmente, la Vista Previa y Prueba, para verificar el funcionamiento y realizar los ajustes necesarios antes de publicarla. Se puede establecer un tiempo límite para completar la actividad.`
   },
   {
     id: 'module4',
-    title: 'Taller Práctico: Creando con IA',
-    description: 'Pon en práctica tus conocimientos generando recursos educativos con IA.',
-    content: '¡Manos a la obra! Este taller práctico te guía paso a paso en la creación de una planificación de clase completa asistida por IA. Aprenderás a formular prompts efectivos para generar objetivos, actividades, rúbricas de evaluación y materiales didácticos, optimizando tu tiempo y potenciando la calidad de tus recursos pedagógicos.'
+    title: 'Comparte, Mide y Potencia el Aprendizaje',
+    description: 'Domina las opciones para compartir tus juegos y aprende a utilizar las herramientas de seguimiento de resultados.',
+    content: `Una vez creada una actividad, Educaplay facilita compartirla y hacer un seguimiento del progreso. Las Opciones de Compartir incluyen: Enlace directo para acceso inmediato, Código QR para dispositivos móviles, Integración web mediante iframe y Exportación SCORM para sistemas LMS. Además, la plataforma permite la Gestión de Grupos para asignar actividades específicas. El Seguimiento de Resultados es fundamental y ofrece estadísticas detalladas de participación, análisis de rendimiento por pregunta, exportación de datos a Excel e informes de progreso individual.`
   },
   {
     id: 'module5',
-    title: 'Implementación y Futuro de la IA Educativa',
-    description: 'Explora los desafíos éticos, las estrategias de implementación y las tendencias futuras.',
-    content: 'Implementar la IA requiere una visión estratégica. Este módulo final aborda las consideraciones éticas, como el sesgo algorítmico y la privacidad de datos. Además, ofrece un plan para la adopción gradual de estas herramientas y una mirada a las tendencias futuras, como la realidad virtual y los tutores de IA personalizados, preparando a los docentes para el aula del mañana.'
+    title: 'Estrategias para Gamificar tus Clases',
+    description: 'Obtén ideas prácticas y un plan de acción para integrar la gamificación en el inicio, desarrollo y cierre de tus clases.',
+    content: `Integrar Educaplay en la rutina de clase potencia la participación. Se pueden aplicar estrategias en diferentes momentos: al Inicio de Clase, con un quiz rápido de repaso para activar conocimientos previos; Durante la Clase, usando crucigramas o competencias por equipos como pausas activas; y al Cierre de Clase, con un test gamificado para consolidar el aprendizaje. Un consejo práctico es usar códigos QR para el acceso rápido desde dispositivos móviles. Los próximos pasos incluyen crear una cuenta gratuita, explorar actividades existentes y planificar la primera actividad para unirse a la comunidad de docentes que gamifican.`
   }
 ];
 

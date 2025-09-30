@@ -1,7 +1,5 @@
-/// <reference types="vite/client" />
-
-// Fix: Add definitions for import.meta.env to make Vite environment variables type-safe
-// and resolve errors in files that use them, such as geminiService.ts.
+// The reference to 'vite/client' was removed to fix a type resolution error.
+// The interfaces below provide type definitions for Vite's import.meta.env for any other potential usage.
 interface ImportMetaEnv {
   readonly VITE_API_KEY: string;
 }
@@ -9,3 +7,11 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
+
+// FIX: Add type definition for process.env.API_KEY to align with guidelines,
+// assuming it's made available in the execution environment.
+declare var process: {
+  env: {
+    API_KEY: string;
+  }
+};
