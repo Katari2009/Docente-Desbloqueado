@@ -3,62 +3,62 @@ import type { Tutorial } from '../types';
 export const TUTORIALS: Tutorial[] = [
   {
     id: 'tut001',
-    title: 'Creando Rúbricas con IA (ChatGPT)',
-    description: 'Aprende a usar ChatGPT para generar rúbricas de evaluación detalladas y personalizadas en minutos.',
+    title: 'Explorando la Interfaz de Educaplay',
+    description: 'Un recorrido en video por el panel principal, la creación de actividades y las opciones de tu perfil.',
     type: 'video',
     category: 'Principiante',
-    duration: '9:20',
-    url: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder URL
-    relatedModuleIds: ['module1', 'module4'],
+    duration: '5:10',
+    url: 'https://www.youtube.com/embed/videoseries?list=PL_m-8-4-j2F9g8_xZ4y_xZ4y_xZ4y_xZ4', // Placeholder URL
+    relatedModuleIds: ['module1', 'module3'],
   },
   {
     id: 'tut002',
-    title: 'Pedagogía y IA (Audio)',
-    description: 'Escucha cómo la IA puede potenciar metodologías activas y el aprendizaje personalizado en el aula.',
+    title: 'Audio-guía: ¿Qué Actividad Elegir?',
+    description: 'Escucha una breve guía para decidir qué tipo de actividad se adapta mejor a tu objetivo pedagógico.',
     type: 'audio',
     category: 'Principiante',
-    duration: '6:45',
+    duration: '4:30',
     url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3', // Placeholder URL
-    relatedModuleIds: ['module3'],
-  },
-  {
-    id: 'tut003',
-    title: 'Generando Imágenes para Clases con DALL-E',
-    description: 'Descubre cómo crear recursos visuales impactantes para tus clases, desde personajes históricos hasta diagramas científicos.',
-    type: 'video',
-    category: 'Intermedio',
-    duration: '7:30',
-    url: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder URL
     relatedModuleIds: ['module2'],
   },
   {
-    id: 'tut004',
-    title: 'Integrando IA en Google Classroom',
-    description: 'Un tutorial práctico para conectar herramientas de IA con tu flujo de trabajo en Google Classroom.',
+    id: 'tut003',
+    title: 'Creando tu Primer Crucigrama Paso a Paso',
+    description: 'Sigue este video-tutorial y crea tu primer crucigrama interactivo en menos de 10 minutos.',
     type: 'video',
     category: 'Intermedio',
-    duration: '5:15',
-    url: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Placeholder URL
-    relatedModuleIds: ['module5'],
+    duration: '8:45',
+    url: 'https://www.youtube.com/embed/videoseries?list=PL_m-8-4-j2F9g8_xZ4y_xZ4y_xZ4y_xZ4', // Placeholder URL
+    relatedModuleIds: ['module3', 'module2'],
+  },
+  {
+    id: 'tut004',
+    title: 'Integrando tu Juego en Google Classroom',
+    description: 'Un tutorial práctico para compartir tus actividades de Educaplay directamente en tus clases de Google Classroom.',
+    type: 'video',
+    category: 'Intermedio',
+    duration: '3:55',
+    url: 'https://www.youtube.com/embed/videoseries?list=PL_m-8-4-j2F9g8_xZ4y_xZ4y_xZ4y_xZ4', // Placeholder URL
+    relatedModuleIds: ['module4', 'module5'],
   },
   {
     id: 'tut005',
-    title: 'Ética y Sesgos en la IA Educativa (Audio)',
-    description: 'Una discusión importante sobre las consideraciones éticas al usar IA, incluyendo la privacidad y los sesgos algorítmicos.',
+    title: 'Audio-guía: Analizando Informes de Resultados',
+    description: 'Aprende a interpretar las estadísticas y los informes de resultados para medir el progreso de tus estudiantes.',
     type: 'audio',
     category: 'Avanzado',
-    duration: '10:05',
+    duration: '6:15',
     url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3', // Placeholder URL
-    relatedModuleIds: ['module5'],
+    relatedModuleIds: ['module4'],
   },
   {
     id: 'tut006',
-    title: 'Demo Interactiva: Prompt Engineering',
-    description: 'Experimenta con una simulación interactiva para aprender a construir prompts efectivos y obtener los mejores resultados de la IA.',
+    title: 'Demo: Usando Códigos QR en el Aula',
+    description: 'Explora una demo interactiva sobre cómo usar los códigos QR de Educaplay para un acceso rápido y dinámico.',
     type: 'interactive',
     category: 'Avanzado',
-    duration: '15:00',
+    duration: '7:00',
     url: 'https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_es.html', // Placeholder URL
-    relatedModuleIds: ['module4'],
+    relatedModuleIds: ['module4', 'module5'],
   },
 ];
