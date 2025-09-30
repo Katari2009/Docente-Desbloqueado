@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { QuizQuestion, Module, RubricFeedbackData } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY as string });
 
 export async function generateQuizQuestions(moduleContent: string): Promise<QuizQuestion[]> {
   try {
@@ -148,7 +148,6 @@ export async function generateForumResponse(question: string, moduleContext: str
 export async function generateRubricFeedback(module: Module, score: number, totalQuestions: number): Promise<RubricFeedbackData> {
     try {
         const performance = (score / totalQuestions) * 100;
-        // @FIX: Removed erroneous backslash before template literal start, which was causing a syntax error.
         const prompt = `
             Actúa como un evaluador pedagógico experto. Un docente ha completado un módulo de formación y un quiz. Genera una rúbrica de feedback formativo en formato JSON basada en su desempeño.
 
