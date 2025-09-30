@@ -47,80 +47,80 @@ const IntegrationIcon = () => (
 export const moduleVisuals = {
   module1: { Icon: AIIcon, gradient: 'from-blue-500 to-indigo-600' },
   module2: { Icon: TechIcon, gradient: 'from-green-500 to-emerald-600' },
-  module3: { Icon: PedagogyIcon, gradient: 'from-yellow-500 to-orange-600' },
-  module4: { Icon: WorkshopIcon, gradient: 'from-purple-500 to-pink-600' },
+  module3: { Icon: WorkshopIcon, gradient: 'from-purple-500 to-pink-600' },
+  module4: { Icon: PedagogyIcon, gradient: 'from-yellow-500 to-orange-600' },
   module5: { Icon: IntegrationIcon, gradient: 'from-cyan-500 to-blue-600' },
 };
 
 export const moduleInfographics = {
   module1: {
-    title: "Introducción a la IA en Educación",
-    subtitle: "Fundamentos y conceptos clave",
+    title: "Gamificación y Educaplay",
+    subtitle: "La Combinación Ganadora",
     sections: [
-      { icon: "🧠", title: "¿Qué es la IA?", content: "Sistemas que simulan la inteligencia humana para resolver problemas y aprender." },
-      { icon: "📚", title: "IA en el Aula", content: "Personalización del aprendizaje, evaluación automática y asistencia pedagógica." },
-      { icon: "🎯", title: "Beneficios Clave", content: "Mejora la eficiencia, personaliza la experiencia y proporciona insights valiosos." },
+      { icon: "🎮", title: "¿Qué es la Gamificación?", content: "Es una estrategia de aprendizaje que usa mecánicas de juego para motivar y enganchar a los estudiantes." },
+      { icon: "🚀", title: "Presentando Educaplay", content: "Una plataforma web gratuita y fácil de usar para crear actividades interactivas sin necesidad de programar." },
+      { icon: "✨", title: "Características Clave", content: "Más de 15 tipos de actividades, interfaz intuitiva, compatible con todos los dispositivos y sistema de puntuación integrado." },
     ],
     objectives: [
-      "Comprender los conceptos fundamentales de la IA.",
-      "Identificar aplicaciones educativas de la IA.",
-      "Reconocer beneficios y desafíos de la implementación."
+      "Entender el concepto de gamificación en la educación.",
+      "Conocer las características principales de la plataforma Educaplay.",
+      "Identificar los beneficios de usar Educaplay para gamificar el aula."
     ]
   },
   module2: {
-    title: "Herramientas de IA para Docentes",
-    subtitle: "Tecnologías prácticas para el aula",
+    title: "Un Universo de Actividades",
+    subtitle: "Tipos de Juegos Educativos",
     sections: [
-      { icon: "💬", title: "Chatbots Educativos", content: "Asistentes como ChatGPT o Gemini para crear contenido y responder preguntas." },
-      { icon: "🎨", title: "Generación de Contenido", content: "Herramientas como DALL-E para la creación de imágenes y materiales visuales." },
-      { icon: "📊", title: "Análisis de Datos", content: "Plataformas que analizan el rendimiento estudiantil y sugieren mejoras." },
+      { icon: "✍️", title: "Actividades de Texto", content: "Crea crucigramas, sopas de letras o actividades para completar textos y reforzar vocabulario." },
+      { icon: "↔️", title: "Actividades Interactivas", content: "Diseña tests, cuestionarios, actividades de relacionar columnas y ordenar elementos para evaluar conocimientos." },
+      { icon: "🎬", title: "Actividades Multimedia", content: "Utiliza videoquizzes, mapas interactivos y presentaciones dinámicas para un aprendizaje más visual." },
     ],
     objectives: [
-      "Explorar herramientas específicas de IA para educación.",
-      "Aprender criterios de selección de tecnologías.",
-      "Desarrollar habilidades prácticas de uso."
+      "Distinguir los diferentes tipos de actividades disponibles en Educaplay.",
+      "Identificar ejemplos de juegos para distintas necesidades pedagógicas.",
+      "Comprender la clasificación de actividades: Texto, Interactivas y Multimedia."
     ]
   },
   module3: {
-    title: "Integración Pedagógica de la IA",
-    subtitle: "Metodologías y estrategias didácticas",
+    title: "Creando tu Primera Actividad",
+    subtitle: "Taller Práctico Paso a Paso",
     sections: [
-      { icon: "🎯", title: "Aprendizaje Personalizado", content: "Adaptar el ritmo y estilo de aprendizaje a cada estudiante usando IA." },
-      { icon: "🔄", title: "Evaluación Continua", content: "Retroalimentación inmediata y seguimiento del progreso en tiempo real." },
-      { icon: "👥", title: "Colaboración Aumentada", content: "IA como facilitador de trabajo en equipo y proyectos colaborativos." },
+      { icon: "1️⃣", title: "Acceso y Exploración", content: "Navega por la interfaz principal de Educaplay y explora las opciones disponibles para empezar a crear." },
+      { icon: "2️⃣", title: "Creación Guiada", content: "Desarrolla una actividad completa desde cero, configurando cada elemento de manera detallada." },
+      { icon: "3️⃣", title: "Personalización y Prueba", content: "Ajusta colores y diseño para una experiencia visual atractiva y prueba la actividad antes de publicarla." },
     ],
     objectives: [
-      "Diseñar estrategias pedagógicas con IA.",
-      "Implementar evaluación formativa automatizada.",
-      "Crear experiencias de aprendizaje personalizadas."
+      "Conocer los pasos clave para crear una actividad en la plataforma.",
+      "Aprender a personalizar el aspecto visual de un juego educativo.",
+      "Entender la importancia de la vista previa para realizar ajustes finales."
     ]
   },
   module4: {
-    title: "Taller Práctico: Creando con IA",
-    subtitle: "Desarrollo de recursos educativos",
+    title: "Comparte y Mide Resultados",
+    subtitle: "Potenciando el Aprendizaje",
     sections: [
-      { icon: "📝", title: "Planificación de Clases", content: "Generar objetivos, actividades y rúbricas con asistencia de IA." },
-      { icon: "🎮", title: "Actividades Interactivas", content: "Crear quizzes, juegos y simulaciones usando herramientas de IA." },
-      { icon: "📖", title: "Materiales Didácticos", content: "Producir textos, infografías y recursos multimedia personalizados." },
+      { icon: "🔗", title: "Opciones para Compartir", content: "Usa enlaces directos, códigos QR, iframes para tu web o exporta en formato SCORM para tu LMS." },
+      { icon: "👥", title: "Gestión de Grupos", content: "Crea colecciones temáticas y asigna actividades específicas a diferentes grupos de estudiantes." },
+      { icon: "📈", title: "Seguimiento de Resultados", content: "Analiza estadísticas de participación, rendimiento por pregunta y exporta datos a Excel." },
     ],
     objectives: [
-      "Crear una planificación de clase completa usando IA.",
-      "Desarrollar actividades interactivas y rúbricas.",
-      "Dominar la formulación de prompts efectivos."
+      "Dominar las diferentes formas de compartir una actividad de Educaplay.",
+      "Comprender cómo gestionar grupos de estudiantes en la plataforma.",
+      "Utilizar las herramientas de seguimiento para analizar el rendimiento."
     ]
   },
   module5: {
-    title: "Implementación y Futuro de la IA",
-    subtitle: "Estrategias de adopción y tendencias",
+    title: "Estrategias para Gamificar",
+    subtitle: "Integra Educaplay en tus Clases",
     sections: [
-      { icon: "🚀", title: "Plan de Implementación", content: "Estrategias paso a paso para adoptar IA en el centro educativo." },
-      { icon: "⚖️", title: "Ética y Responsabilidad", content: "Consideraciones éticas, sesgos algorítmicos y uso responsable." },
-      { icon: "🔮", title: "Tendencias Futuras", content: "Realidad virtual, metaverso educativo y tutores de IA personalizados." },
+      { icon: "🌅", title: "Inicio de Clase", content: "Activa conocimientos previos y genera expectación con un quiz rápido de repaso." },
+      { icon: "☀️", title: "Durante la Clase", content: "Mantén la atención con pausas activas, usando crucigramas temáticos o competencias por equipos." },
+      { icon: "🌙", title: "Cierre de Clase", content: "Consolida el aprendizaje con un test gamificado o una sopa de letras sobre los conceptos clave." },
     ],
     objectives: [
-      "Desarrollar un plan de implementación institucional.",
-      "Prepararse para futuras innovaciones en IA educativa.",
-      "Establecer marcos éticos para el uso de IA."
+      "Aplicar estrategias de gamificación en los tres momentos de la clase.",
+      "Reconocer consejos prácticos como el uso de códigos QR para acceso rápido.",
+      "Definir los próximos pasos para empezar a gamificar con Educaplay."
     ]
   }
 };
